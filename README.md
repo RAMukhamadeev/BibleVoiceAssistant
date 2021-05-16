@@ -1,1 +1,1 @@
-# BibleVoiceAssistant
+# Bible Voice Assistant
