@@ -1,0 +1,50 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar bibleAssistantGrammar;
+
+<matthew> = (
+    [евангелие] [от] матфея
+);
+
+<mark> = (
+    [евангелие] [от] марка
+);
+
+<luke> = (
+    [евангелие] [от] луки
+);
+
+<john> = (
+    [евангелие] [от] иоанна
+);
+
+<acts> = (
+    деяния [святых] [апостолов]
+);
+
+<book_name> = (
+    <matthew> | <mark> | <luke> | <john> | <acts>
+);
+
+<chapter_number> = (
+    первая | вторая | третья | четвёртая | пятая
+);
+
+<verse_number> = (
+    первый | второй | третий | четвёртый | пятый
+);
+
+<verse> = (
+    [стих]
+);
+
+<chapter> = (
+    [глава]
+);
+
+public <syntax> = <book_name> <chapter_number> <chapter> <verse_number> <verse>;
+
