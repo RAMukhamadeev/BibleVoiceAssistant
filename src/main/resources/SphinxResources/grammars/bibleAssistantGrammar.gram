@@ -9,25 +9,89 @@ grammar bibleAssistantGrammar;
 <matthew> = (
     [евангелие] [от] матфея
 );
-
 <mark> = (
     [евангелие] [от] марка
 );
-
 <luke> = (
     [евангелие] [от] луки
 );
-
 <john> = (
     [евангелие] [от] иоанна
 );
-
 <acts> = (
-    деяния [святых] [апостолов]
+    деяния [апостолов]
+);
+<james> = (
+    [послание] иакова
+);
+<1_peter> = (
+    первое [послание] петра
+);
+<2_peter> = (
+    второе [послание] петра
+);
+<1_john> = (
+    первое [послание] иоанна
+);
+<2_john> = (
+    второе [послание] иоанна
+);
+<3_john> = (
+    третье [послание] иоанна
+);
+<jude> = (
+    [послание] иуды
+);
+<romans> = (
+    [послание] [к] римлянам
+);
+<1_corinthians> = (
+    первое [послание] [к] коринфянам
+);
+<2_corinthians> = (
+    второе [послание] [к] коринфянам
+);
+<galatians> = (
+    [послание] [к] галатам
+);
+<ephesians> = (
+    [послание] [к] ефесянам
+);
+<philippians> = (
+    [послание] [к] филиппийцам
+);
+<colossians> = (
+    [послание] [к] колоссянам
+);
+<1_thessalonians> = (
+    первое [послание] [к] фессалоникийцам
+);
+<2_thessalonians> = (
+    второе [послание] [к] фессалоникийцам
+);
+<1_timothy> = (
+    первое [послание] [к] тимофею
+);
+<2_timothy> = (
+    второе [послание] [к] тимофею
+);
+<titus> = (
+    [послание] [к] титу
+);
+<philemon> = (
+    [послание] [к] филимону
+);
+<hebrews> = (
+    [послание] [к] евреям
+);
+<revelation> = (
+    откровение [апостола] [Иоанна]
 );
 
 <book_name> = (
-    <matthew> | <mark> | <luke> | <john> | <acts>
+    <matthew> | <mark> | <luke> | <john> | <acts> | <james> | <1_peter> | <2_peter> | <1_john> | <2_john> | <3_john> |
+    <jude> | <romans> | <1_corinthians> | <2_corinthians> | <galatians> | <ephesians> | <philippians> | <colossians> |
+    <1_thessalonians> | <2_thessalonians> | <1_timothy> | <2_timothy> | <titus> | <philemon> | <hebrews> | <revelation>
 );
 
 <chapter_number> = (
@@ -38,13 +102,13 @@ grammar bibleAssistantGrammar;
     первый | второй | третий | четвёртый | пятый
 );
 
-<verse> = (
-    [стих]
-);
-
 <chapter> = (
-    [глава]
+    глава
 );
 
-public <syntax> = <book_name> <chapter_number> <chapter> <verse_number> <verse>;
+<verse> = (
+    стих
+);
+
+public <bible_verse_syntax> = <book_name> <chapter_number> <chapter> <verse_number> <verse>;
 
