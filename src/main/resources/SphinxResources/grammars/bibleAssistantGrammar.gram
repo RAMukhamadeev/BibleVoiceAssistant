@@ -111,7 +111,6 @@ grammar bibleAssistantGrammar;
 <n_3s_w> = (
     сотая | двухсотая
 );
-// восьмидесятая, двухсотая - no in dic
 
 <n_w> = ([<n_3_w>] (([<n_2c>] <n_1_w>) | <n_2_w>)) | <n_3s_w>;
 
