@@ -131,15 +131,20 @@ grammar bibleAssistantGrammar;
 );
 <n_m> = ([<n_3_m>] (([<n_2c>] <n_1_m>) | <n_2_m>)) | <n_3s_m>;
 
-<chapter> = (
+<chapter_title> = (
     глава
 );
 
-<verse> = (
+<verse_title> = (
     стих
 );
 
-//public <bible_verse_syntax> = <book_name> <chapter_number> <chapter> <verse_number> <verse>;
+<verse> = <n_m> <verse_title>;
+<chapter> = <n_w> <chapter_title>;
+<book> = <book_name>;
 
-public <test_syntax> = <n_w>;
+
+public <bible_verse_syntax> = <book> <chapter> <verse>;
+
+//public <test_syntax> = <n_m>;
 

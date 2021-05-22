@@ -29,9 +29,7 @@ public class Main {
         System.out.println("Start recognizing...");
         while ((result = recognizer.getResult()) != null) {
             String currentPhrase = result.getHypothesis();
-            System.out.println("Фраза: ");
             System.out.println(currentPhrase);
-            System.out.println(findVerse(currentPhrase));
         }
 
         recognizer.stopRecognition();
