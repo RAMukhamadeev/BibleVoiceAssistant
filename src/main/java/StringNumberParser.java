@@ -3,102 +3,121 @@ import java.util.HashMap;
 
 public class StringNumberParser {
 
-    private static HashMap<String, Integer> stringNumberMap;
+    private static HashMap<String, StringNumber> getStringNumberDictionary() {
+        ArrayList<StringNumber> numbers = new ArrayList<>();
+        numbers.add(new StringNumber("первый", 1, false));
+        numbers.add(new StringNumber("первая", 1, false));
+        numbers.add(new StringNumber("второй", 2, false));
+        numbers.add(new StringNumber("вторая", 2, false));
+        numbers.add(new StringNumber("третий", 3, false));
+        numbers.add(new StringNumber("третья", 3, false));
+        numbers.add(new StringNumber("четвёртый", 4, false));
+        numbers.add(new StringNumber("четвёртая", 4, false));
+        numbers.add(new StringNumber("пятый", 5, false));
+        numbers.add(new StringNumber("пятая", 5, false));
+        numbers.add(new StringNumber("шестой", 6, false));
+        numbers.add(new StringNumber("шестая", 6, false));
+        numbers.add(new StringNumber("седьмой", 7, false));
+        numbers.add(new StringNumber("седьмая", 7, false));
+        numbers.add(new StringNumber("восьмой", 8, false));
+        numbers.add(new StringNumber("восьмая", 8, false));
+        numbers.add(new StringNumber("девятый", 9, false));
+        numbers.add(new StringNumber("девятая", 9,false));
 
-    private static HashMap<String, Integer> getStringNumberMap() {
-        if (stringNumberMap != null) {
-            return stringNumberMap;
+        numbers.add(new StringNumber("десятый", 10, false));
+        numbers.add(new StringNumber("десятая", 10, false));
+        numbers.add(new StringNumber("одиннадцатый", 11, false));
+        numbers.add(new StringNumber("одиннадцатая", 11, false));
+        numbers.add(new StringNumber("двенадцатый", 12, false));
+        numbers.add(new StringNumber("двенадцатая", 12, false));
+        numbers.add(new StringNumber("двенадцатая", 12, false));
+        numbers.add(new StringNumber("тринадцатый", 13, false));
+        numbers.add(new StringNumber("тринадцатая", 13,false));
+        numbers.add(new StringNumber("четырнадцатый", 14,false));
+        numbers.add(new StringNumber("четырнадцатая", 14,false));
+        numbers.add(new StringNumber("пятнадцатый", 15,false));
+        numbers.add(new StringNumber("пятнадцатая", 15,false));
+        numbers.add(new StringNumber("шестнадцатый", 16,false));
+        numbers.add(new StringNumber("шестнадцатая", 16,false));
+        numbers.add(new StringNumber("семнадцатый", 17,false));
+        numbers.add(new StringNumber("семнадцатая", 17,false));
+        numbers.add(new StringNumber("восемнадцатый", 18,false));
+        numbers.add(new StringNumber("восемнадцатая", 18,false));
+        numbers.add(new StringNumber("девятнадцатый", 19,false));
+        numbers.add(new StringNumber("девятнадцатая", 19,false));
+
+        numbers.add(new StringNumber("двадцать", 20,true));
+        numbers.add(new StringNumber("двадцатый", 20,false));
+        numbers.add(new StringNumber("двадцатая", 20,false));
+        numbers.add(new StringNumber("тридцать", 30,true));
+        numbers.add(new StringNumber("тридцатый", 30,false));
+        numbers.add(new StringNumber("тридцатая", 30,false));
+        numbers.add(new StringNumber("сорок", 40,true));
+        numbers.add(new StringNumber("сороковой", 40,false));
+        numbers.add(new StringNumber("сороковая", 40,false));
+        numbers.add(new StringNumber("пятьдесят", 50,true));
+        numbers.add(new StringNumber("пятидесятый", 50,false));
+        numbers.add(new StringNumber("пятидесятая", 50,false));
+        numbers.add(new StringNumber("шестьдесят", 60,true));
+        numbers.add(new StringNumber("шестидесятый", 60,false));
+        numbers.add(new StringNumber("шестидесятая", 60,false));
+        numbers.add(new StringNumber("семьдесят", 70,true));
+        numbers.add(new StringNumber("семидесятый", 70,false));
+        numbers.add(new StringNumber("семидесятая", 70,false));
+        numbers.add(new StringNumber("восемдесят", 80,true));
+        numbers.add(new StringNumber("восьмидесятый", 80,false));
+        numbers.add(new StringNumber("восьмидесятая", 80,false));
+        numbers.add(new StringNumber("девяносто", 90,true));
+        numbers.add(new StringNumber("девяностый", 90,false));
+        numbers.add(new StringNumber("девяностая", 90,false));
+
+        numbers.add(new StringNumber("сто", 100,true));
+        numbers.add(new StringNumber("сотый", 100,false));
+        numbers.add(new StringNumber("сотая", 100,false));
+        numbers.add(new StringNumber("двести", 200,true));
+        numbers.add(new StringNumber("двухсотый", 200,false));
+        numbers.add(new StringNumber("двухсотая", 200,false));
+
+        HashMap<String, StringNumber> stringNumberDictionary = new HashMap<>();
+        for (StringNumber sn : numbers) {
+            stringNumberDictionary.put(sn.stringValue, sn);
         }
-
-        stringNumberMap = new HashMap<>();
-        stringNumberMap.put("первый", 1);
-
-
-        stringNumberMap.put("первая", 1);
-        stringNumberMap.put("второй", 2);
-        stringNumberMap.put("вторая", 2);
-        stringNumberMap.put("третий", 3);
-        stringNumberMap.put("третья", 3);
-        stringNumberMap.put("четвёртый", 4);
-        stringNumberMap.put("четвёртая", 4);
-        stringNumberMap.put("пятый", 5);
-        stringNumberMap.put("пятая", 5);
-        stringNumberMap.put("шестой", 6);
-        stringNumberMap.put("шестая", 6);
-        stringNumberMap.put("седьмой", 7);
-        stringNumberMap.put("седьмая", 7);
-        stringNumberMap.put("восьмой", 8);
-        stringNumberMap.put("восьмая", 8);
-        stringNumberMap.put("девятый", 9);
-        stringNumberMap.put("девятая", 9);
-
-        stringNumberMap.put("десятый", 10);
-        stringNumberMap.put("десятая", 10);
-        stringNumberMap.put("одиннадцатый", 11);
-        stringNumberMap.put("одиннадцатая", 11);
-        stringNumberMap.put("двенадцатый", 12);
-        stringNumberMap.put("двенадцатая", 12);
-        stringNumberMap.put("тринадцатый", 13);
-        stringNumberMap.put("тринадцатая", 13);
-        stringNumberMap.put("четырнадцатый", 14);
-        stringNumberMap.put("четырнадцатая", 14);
-        stringNumberMap.put("пятнадцатый", 15);
-        stringNumberMap.put("пятнадцатая", 15);
-        stringNumberMap.put("шестнадцатый", 16);
-        stringNumberMap.put("шестнадцатая", 16);
-        stringNumberMap.put("семнадцатый", 17);
-        stringNumberMap.put("семнадцатая", 17);
-        stringNumberMap.put("восемнадцатый", 18);
-        stringNumberMap.put("восемнадцатая", 18);
-        stringNumberMap.put("девятнадцатый", 19);
-        stringNumberMap.put("девятнадцатая", 19);
-
-        stringNumberMap.put("двадцать", 20);
-        stringNumberMap.put("двадцатый", 20);
-        stringNumberMap.put("двадцатая", 20);
-        stringNumberMap.put("тридцать", 30);
-        stringNumberMap.put("тридцатый", 30);
-        stringNumberMap.put("тридцатая", 30);
-        stringNumberMap.put("сорок", 40);
-        stringNumberMap.put("сороковой", 40);
-        stringNumberMap.put("сороковая", 40);
-        stringNumberMap.put("пятьдесят", 50);
-        stringNumberMap.put("пятидесятый", 50);
-        stringNumberMap.put("пятидесятая", 50);
-        stringNumberMap.put("шестьдесят", 60);
-        stringNumberMap.put("шестидесятый", 60);
-        stringNumberMap.put("шестидесятая", 60);
-        stringNumberMap.put("семьдесят", 70);
-        stringNumberMap.put("семидесятый", 70);
-        stringNumberMap.put("семидесятая", 70);
-        stringNumberMap.put("восемдесят", 80);
-        stringNumberMap.put("восьмидесятый", 80);
-        stringNumberMap.put("восьмидесятая", 80);
-        stringNumberMap.put("девяносто", 90);
-        stringNumberMap.put("девяностый", 90);
-        stringNumberMap.put("девяностая", 90);
-
-        stringNumberMap.put("сто", 100);
-        stringNumberMap.put("сотый", 100);
-        stringNumberMap.put("сотая", 100);
-        stringNumberMap.put("двести", 200);
-        stringNumberMap.put("двухсотый", 200);
-        stringNumberMap.put("двухсотая", 200);
-
-        return stringNumberMap;
+        return stringNumberDictionary;
     }
 
     public static int parse(String inputText) {
-        HashMap<String, Integer> stringToNumber = getStringNumberMap();
+        if (inputText == null || inputText.trim().isEmpty()) {
+            return -1;
+        }
 
+        HashMap<String, StringNumber> stringNumberDictionary = getStringNumberDictionary();
         String[] tokens = inputText.split(" ");
-        ArrayList<Integer> integers = new ArrayList<>();
+        ArrayList<StringNumber> numbers = new ArrayList<>();
         for (String currToken : tokens) {
-            if (stringToNumber.containsKey(currToken)) {
-                integers.add(stringToNumber.get(currToken));
+            if (stringNumberDictionary.containsKey(currToken)) {
+                numbers.add(stringNumberDictionary.get(currToken));
+            }
+        }
+        if (numbers.size() == 0) {
+            return -1;
+        }
+
+        int res = 0;
+        for (int i = 0; i < numbers.size(); i++) {
+            StringNumber currNumber = numbers.get(i);
+            if (i == 0) {
+                res += currNumber.intValue;
+            } else {
+                StringNumber prevNumber = numbers.get(i - 1);
+                if (prevNumber.allowRightAddition && prevNumber.pow > currNumber.pow) {
+                    res += currNumber.intValue;
+                } else {
+                    res = -1;
+                    break;
+                }
             }
         }
 
-        return 0;
+        return res;
     }
 }
