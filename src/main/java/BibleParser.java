@@ -33,7 +33,7 @@ public class BibleParser {
                 }
 
                 if (line.startsWith(BOOK_MARK)) {
-                    currentBook = line.substring(BOOK_MARK.length());
+                    currentBook = line.substring(BOOK_MARK.length()).toLowerCase();
                     continue;
                 }
 
