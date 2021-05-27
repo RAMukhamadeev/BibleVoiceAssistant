@@ -1,0 +1,277 @@
+[ {
+  "stringValue" : "первый",
+  "intValue" : 1,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "первая",
+  "intValue" : 1,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "второй",
+  "intValue" : 2,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "вторая",
+  "intValue" : 2,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "третий",
+  "intValue" : 3,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "третья",
+  "intValue" : 3,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "четвёртый",
+  "intValue" : 4,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "четвёртая",
+  "intValue" : 4,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "пятый",
+  "intValue" : 5,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "пятая",
+  "intValue" : 5,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "шестой",
+  "intValue" : 6,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "шестая",
+  "intValue" : 6,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "седьмой",
+  "intValue" : 7,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "седьмая",
+  "intValue" : 7,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "восьмой",
+  "intValue" : 8,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "восьмая",
+  "intValue" : 8,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "девятый",
+  "intValue" : 9,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "девятая",
+  "intValue" : 9,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "десятый",
+  "intValue" : 10,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "десятая",
+  "intValue" : 10,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "одиннадцатый",
+  "intValue" : 11,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "одиннадцатая",
+  "intValue" : 11,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двенадцатый",
+  "intValue" : 12,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двенадцатая",
+  "intValue" : 12,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двенадцатая",
+  "intValue" : 12,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "тринадцатый",
+  "intValue" : 13,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "тринадцатая",
+  "intValue" : 13,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "четырнадцатый",
+  "intValue" : 14,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "четырнадцатая",
+  "intValue" : 14,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "пятнадцатый",
+  "intValue" : 15,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "пятнадцатая",
+  "intValue" : 15,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "шестнадцатый",
+  "intValue" : 16,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "шестнадцатая",
+  "intValue" : 16,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "семнадцатый",
+  "intValue" : 17,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "семнадцатая",
+  "intValue" : 17,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "восемнадцатый",
+  "intValue" : 18,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "восемнадцатая",
+  "intValue" : 18,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "девятнадцатый",
+  "intValue" : 19,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "девятнадцатая",
+  "intValue" : 19,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двадцать",
+  "intValue" : 20,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "двадцатый",
+  "intValue" : 20,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двадцатая",
+  "intValue" : 20,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "тридцать",
+  "intValue" : 30,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "тридцатый",
+  "intValue" : 30,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "тридцатая",
+  "intValue" : 30,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "сорок",
+  "intValue" : 40,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "сороковой",
+  "intValue" : 40,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "сороковая",
+  "intValue" : 40,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "пятьдесят",
+  "intValue" : 50,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "пятидесятый",
+  "intValue" : 50,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "пятидесятая",
+  "intValue" : 50,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "шестьдесят",
+  "intValue" : 60,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "шестидесятый",
+  "intValue" : 60,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "шестидесятая",
+  "intValue" : 60,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "семьдесят",
+  "intValue" : 70,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "семидесятый",
+  "intValue" : 70,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "семидесятая",
+  "intValue" : 70,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "восемдесят",
+  "intValue" : 80,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "восьмидесятый",
+  "intValue" : 80,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "восьмидесятая",
+  "intValue" : 80,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "девяносто",
+  "intValue" : 90,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "девяностый",
+  "intValue" : 90,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "девяностая",
+  "intValue" : 90,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "сто",
+  "intValue" : 100,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "сотый",
+  "intValue" : 100,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "сотая",
+  "intValue" : 100,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двести",
+  "intValue" : 200,
+  "allowRightAddition" : true
+}, {
+  "stringValue" : "двухсотый",
+  "intValue" : 200,
+  "allowRightAddition" : false
+}, {
+  "stringValue" : "двухсотая",
+  "intValue" : 200,
+  "allowRightAddition" : false
+} ]
