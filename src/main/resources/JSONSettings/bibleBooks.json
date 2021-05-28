@@ -1,0 +1,298 @@
+[
+  {
+    "shortName": "матфея",
+    "fullName": "Евангелие от Матфея",
+    "allNames": [
+      "евангелие от матфея",
+      "от матфея",
+      "матфея"
+    ],
+    "countOfChapters": 28,
+    "order": 40
+  },
+  {
+    "shortName": "марка",
+    "fullName": "Евангелие от Марка",
+    "allNames": [
+      "евангелие от марка",
+      "от марка",
+      "марка"
+    ],
+    "countOfChapters": 16,
+    "order": 41
+  },
+  {
+    "shortName": "луки",
+    "fullName": "Евангелие от Луки",
+    "allNames": [
+      "евангелие от луки",
+      "от луки",
+      "луки"
+    ],
+    "countOfChapters": 24,
+    "order": 42
+  },
+  {
+    "shortName": "иоанна",
+    "fullName": "Евангелие от Иоанна",
+    "allNames": [
+      "евангелие от иоанна",
+      "от иоанна",
+      "иоанна"
+    ],
+    "countOfChapters": 21,
+    "order": 43
+  },
+  {
+    "shortName": "деяния",
+    "fullName": "Деяния Апостолов",
+    "allNames": [
+      "деяния апостолов",
+      "деяния"
+    ],
+    "countOfChapters": 28,
+    "order": 44
+  },
+  {
+    "shortName": "иакова",
+    "fullName": "Послание Иакова",
+    "allNames": [
+      "послание иакова",
+      "иакова"
+    ],
+    "countOfChapters": 5,
+    "order": 45
+  },
+  {
+    "shortName": "1 петра",
+    "fullName": "Первое послание Петра",
+    "allNames": [
+      "первое послание петра",
+      "первое петра"
+    ],
+    "countOfChapters": 5,
+    "order": 46
+  },
+  {
+    "shortName": "2 петра",
+    "fullName": "Второе послание Петра",
+    "allNames": [
+      "второе послание петра",
+      "второе петра"
+    ],
+    "countOfChapters": 3,
+    "order": 47
+  },
+  {
+    "shortName": "1 иоанна",
+    "fullName": "Первое послание Иоанна",
+    "allNames": [
+      "первое послание иоанна",
+      "первое иоанна"
+    ],
+    "countOfChapters": 5,
+    "order": 48
+  },
+  {
+    "shortName": "2 иоанна",
+    "fullName": "Второе послание Иоанна",
+    "allNames": [
+      "второе послание иоанна",
+      "второе иоанна"
+    ],
+    "countOfChapters": 1,
+    "order": 49
+  },
+  {
+    "shortName": "3 иоанна",
+    "fullName": "Третье послание Иоанна",
+    "allNames": [
+      "третье послание иоанна",
+      "третье иоанна"
+    ],
+    "countOfChapters": 1,
+    "order": 50
+  },
+  {
+    "shortName": "иуды",
+    "fullName": "Послание Иуды",
+    "allNames": [
+      "послание иуды",
+      "иуды"
+    ],
+    "countOfChapters": 1,
+    "order": 51
+  },
+  {
+    "shortName": "римлянам",
+    "fullName": "Послание к Римлянам",
+    "allNames": [
+      "послание к римлянам",
+      "к римлянам",
+      "римлянам"
+    ],
+    "countOfChapters": 16,
+    "order": 52
+  },
+  {
+    "shortName": "1 коринфянам",
+    "fullName": "Первое послание к Коринфянам",
+    "allNames": [
+      "первое послание к коринфянам",
+      "первое к коринфянам",
+      "первое коринфянам"
+    ],
+    "countOfChapters": 16,
+    "order": 53
+  },
+  {
+    "shortName": "2 коринфянам",
+    "fullName": "Второе послание к Коринфянам",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 54
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 55
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 56
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 57
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 58
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 59
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 60
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 61
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 62
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 63
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 64
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order":
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 65
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1
+    "order": 66
+  },
+  {
+    "shortName": "",
+    "fullName": "",
+    "allNames": [
+      "",
+      ""
+    ],
+    "countOfChapters": 1,
+    "order": 1
+  }
+]

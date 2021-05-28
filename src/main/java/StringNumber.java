@@ -10,10 +10,4 @@ public class StringNumber {
     public StringNumber() {
 
     }
-
-    public StringNumber(String stringValue, int intValue, boolean allowRightAddition) {
-        this.stringValue = stringValue;
-        this.intValue = intValue;
-        this.allowRightAddition = allowRightAddition;
-    }
 }

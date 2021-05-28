@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class JacksonSerializer {
     private static final String RESOURCES_FOLDER = "src/main/resources/JSONSettings/";
-    private static final String NUMBER_DICTIONARY_FILE_NAME = "numberDictionary.txt";
+    private static final String NUMBER_DICTIONARY_FILE_NAME = "numberDictionary.json";
 
     public static void serializeToJSON(String fileName, Object object) {
         try {
