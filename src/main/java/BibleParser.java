@@ -10,11 +10,17 @@ public class BibleParser {
     private static final String PSALM_MARK = "Псалом ";
     private static final String PATH_TO_BIBLE_MAP = "src/main/resources/Bible/bible.map";
     private static final String PATH_TO_BIBLE_TEXT = "src/main/resources/Bible/bible.txt";
+    private static HashMap<String, String> bibleMap;
 
     public BibleParser() {
     }
 
-    public static HashMap<String, String> getBibleMapFromText() {
+    public static String findBibleVerse(String verseLocation) {
+        HashMap<String, String> bibleMap = getBibleMap();
+        return bibleMap.get(verseLocation);
+    }
+
+    private static HashMap<String, String> getBibleMapFromText() {
         HashMap<String, String> bibleMap = new HashMap<>();
 
         try {
@@ -63,7 +69,7 @@ public class BibleParser {
         return bibleMap;
     }
 
-    public static void saveBibleMapToFile(HashMap<String, String> bibleMap) {
+    private static void saveBibleMapToFile(HashMap<String, String> bibleMap) {
         try {
             FileOutputStream fos = new FileOutputStream(PATH_TO_BIBLE_MAP);
             ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -75,7 +81,15 @@ public class BibleParser {
         }
     }
 
-    public static HashMap<String, String> getBibleMapFromFile() {
+    private static HashMap<String, String> getBibleMap() {
+        if (bibleMap == null) {
+            bibleMap = getBibleMapFromFile();
+        }
+
+        return bibleMap;
+    }
+
+    private static HashMap<String, String> getBibleMapFromFile() {
         HashMap<String, String> bibleMap = new HashMap<>();
         try {
             FileInputStream fis = new FileInputStream(PATH_TO_BIBLE_MAP);

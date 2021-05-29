@@ -1,5 +1,6 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class BibleVerseLocationParserTest {
     @Test
@@ -27,10 +28,27 @@ public class BibleVerseLocationParserTest {
     }
 
     @Test
-    public void simpleTest4() {
-        String inputString = "бытие сорок первая глава пятьдесят третий стих";
+    public void failTest1() {
+        String inputString = "тестовая строка";
         String stdVerseLocation = BibleVerseLocationParser.getStdVerseLocation(inputString);
 
-        assertEquals("Wrong bible verse location translation", "бытие 41:53", stdVerseLocation);
+        assertNull("Wrong bible verse location translation", stdVerseLocation);
+    }
+
+
+    @Test
+    public void simpleTest4() {
+        String inputString = "послание к филимону сорок первая глава пятьдесят третий стих";
+        String stdVerseLocation = BibleVerseLocationParser.getStdVerseLocation(inputString);
+
+        assertEquals("Wrong bible verse location translation", "филимону 41:53", stdVerseLocation);
+    }
+
+    @Test
+    public void simpleTest5() {
+        String inputString = "послание евреям двести седьмая глава одиннадцатый стих";
+        String stdVerseLocation = BibleVerseLocationParser.getStdVerseLocation(inputString);
+
+        assertEquals("Wrong bible verse location translation", "евреям 207:11", stdVerseLocation);
     }
 }

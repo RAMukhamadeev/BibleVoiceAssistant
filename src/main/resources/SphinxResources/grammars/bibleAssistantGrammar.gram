@@ -135,12 +135,8 @@ grammar bibleAssistantGrammar;
     стих
 );
 
-<verse> = <n_m> <verse_title>;
-<chapter> = <n_w> <chapter_title>;
-<book> = <book_name>;
-
-
+public <verse> = <n_m> <verse_title>;
+public <chapter> = <n_w> <chapter_title>;
+public <book> = <book_name>;
 public <bible_verse_syntax> = <book> <chapter> <verse>;
-
-//public <test_syntax> = <n_m>;
 

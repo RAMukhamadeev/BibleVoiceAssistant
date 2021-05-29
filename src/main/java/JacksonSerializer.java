@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class JacksonSerializer {
     private static final String RESOURCES_FOLDER = "src/main/resources/JSONSettings/";
     private static final String NUMBER_DICTIONARY_FILE_NAME = "numberDictionary.json";
+    private static final String BOOK_DICTIONARY_FILE_NAME = "bibleBooks.json";
 
     public static void serializeToJSON(String fileName, Object object) {
         try {
@@ -36,7 +37,7 @@ public class JacksonSerializer {
         return res;
     }
 
-    public static ArrayList<StringNumber> getNumberDictionary() {
+    public static ArrayList<StringNumber> getNumbersDictionary() {
         ArrayList<StringNumber> numbers = new ArrayList<>();
         try {
             String path = RESOURCES_FOLDER + NUMBER_DICTIONARY_FILE_NAME;
@@ -48,5 +49,19 @@ public class JacksonSerializer {
             ex.printStackTrace();
         }
         return numbers;
+    }
+
+    public static ArrayList<BibleBook> getBooksDictionary() {
+        ArrayList<BibleBook> bibleBooks = new ArrayList<>();
+        try {
+            String path = RESOURCES_FOLDER + BOOK_DICTIONARY_FILE_NAME;
+            String json = getFileAsString(path);
+            TypeReference<ArrayList<BibleBook>> typeRef = new TypeReference<ArrayList<BibleBook>>() {};
+            ObjectMapper mapper = new ObjectMapper();
+            bibleBooks = mapper.readValue(json, typeRef);
+        } catch(Exception ex) {
+            ex.printStackTrace();
+        }
+        return bibleBooks;
     }
 }

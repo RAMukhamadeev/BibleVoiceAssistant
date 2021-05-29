@@ -6,7 +6,7 @@ public class StringNumberParser {
 
     private static HashMap<String, StringNumber> getStringNumberDictionary() {
         if (stringNumberDictionary == null) {
-            ArrayList<StringNumber> numbers = JacksonSerializer.getNumberDictionary();
+            ArrayList<StringNumber> numbers = JacksonSerializer.getNumbersDictionary();
             stringNumberDictionary = getStringNumbersMap(numbers);
         }
         return stringNumberDictionary;
