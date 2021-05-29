@@ -149,150 +149,143 @@
     "shortName": "2 коринфянам",
     "fullName": "Второе послание к Коринфянам",
     "allNames": [
-      "",
-      ""
+      "второе послание к коринфянам",
+      "второе послание коринфянам",
+      "второе коринфянам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 13,
     "order": 54
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "галатам",
+    "fullName": "Послание к Галатам",
     "allNames": [
-      "",
-      ""
+      "послание к галатам",
+      "к галатам",
+      "галатам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 6,
     "order": 55
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "ефесянам",
+    "fullName": "Послание к Ефесянам",
     "allNames": [
-      "",
-      ""
+      "послание к ефесянам",
+      "к ефесянам",
+      "ефесянам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 6,
     "order": 56
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "филиппийцам",
+    "fullName": "Послание к Филиппийцам",
     "allNames": [
-      "",
-      ""
+      "послание к филиппийцам",
+      "к филиппийцам",
+      "филиппийцам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 4,
     "order": 57
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "колоссянам",
+    "fullName": "Послание к Колоссянам",
     "allNames": [
-      "",
-      ""
+      "послание к колоссянам",
+      "к колоссянам",
+      "колоссянам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 4,
     "order": 58
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "1 фессалоникийцам",
+    "fullName": "Первое послание к Фессалоникийцам",
     "allNames": [
-      "",
-      ""
+      "первое послание к фессалоникийцам",
+      "первое послание фессалоникийцам",
+      "первое фессалоникийцам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 5,
     "order": 59
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "2 фессалоникийцам",
+    "fullName": "Второе послание к Фессалоникийцам",
     "allNames": [
-      "",
-      ""
+      "второе послание к фессалоникийцам",
+      "второе послание фессалоникийцам",
+      "второе фессалоникийцам"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 3,
     "order": 60
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "1 тимофею",
+    "fullName": "Первое послание к Тимофею",
     "allNames": [
-      "",
-      ""
+      "первое послание к тимофею",
+      "первое послание тимофею",
+      "первое тимофею"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 6,
     "order": 61
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "2 тимофею",
+    "fullName": "Второе послание к Тимофею",
     "allNames": [
-      "",
-      ""
+      "второе послание к тимофею",
+      "второе послание тимофею",
+      "второе тимофею"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 4,
     "order": 62
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "титу",
+    "fullName": "Послание к Титу",
     "allNames": [
-      "",
-      ""
+      "послание к титу",
+      "послание титу",
+      "титу"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 3,
     "order": 63
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "филимону",
+    "fullName": "Послание к Филимону",
     "allNames": [
-      "",
-      ""
+      "послание к филимону",
+      "к филимону",
+      "филимону"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 1,
     "order": 64
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "евреям",
+    "fullName": "Послание к Евреям",
     "allNames": [
-      "",
-      ""
+      "послание к евреям",
+      "к евреям",
+      "евреям"
     ],
-    "countOfChapters": 1
-    "order":
-  },
-  {
-    "shortName": "",
-    "fullName": "",
-    "allNames": [
-      "",
-      ""
-    ],
-    "countOfChapters": 1
+    "countOfChapters": 13,
     "order": 65
   },
   {
-    "shortName": "",
-    "fullName": "",
+    "shortName": "откровение",
+    "fullName": "Откровение апостола Иоанна",
     "allNames": [
-      "",
-      ""
+      "откровение апостола иоанна",
+      "откровение иоанна",
+      "откровение"
     ],
-    "countOfChapters": 1
+    "countOfChapters": 22,
     "order": 66
-  },
-  {
-    "shortName": "",
-    "fullName": "",
-    "allNames": [
-      "",
-      ""
-    ],
-    "countOfChapters": 1,
-    "order": 1
   }
 ]
