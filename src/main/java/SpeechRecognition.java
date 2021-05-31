@@ -20,15 +20,26 @@ public class SpeechRecognition {
 
         System.out.println("Start recognizing...");
         String currentSpeech = "";
+        int countOfAdditions = 0;
 
         while ((result = recognizer.getResult()) != null) {
             String currentPhrase = result.getHypothesis();
+
             if (!currentSpeech.isEmpty()) {
                 currentSpeech += " " + currentPhrase;
             } else {
                 currentSpeech = currentPhrase;
             }
+            countOfAdditions++;
+
             System.out.println(currentSpeech);
+
+            if (currentPhrase.contains("<unk>")) {
+                System.out.println("Стих не найден");
+                currentSpeech = "";
+                countOfAdditions = 0;
+                continue;
+            }
 
             String foundVerseLocation = BibleVerseLocationParser.getStdVerseLocation(currentSpeech);
             if (foundVerseLocation != null) {
@@ -36,14 +47,18 @@ public class SpeechRecognition {
                 String foundVerse = BibleParser.findBibleVerse(foundVerseLocation);
                 if (foundVerse != null) {
                     System.out.println(foundVerse);
+                    currentSpeech = "";
+                    countOfAdditions = 0;
                 } else {
                     System.out.println("Стих не найден");
-                }
-                currentSpeech = "";
-            } else {
-                if (currentSpeech.endsWith("стих")) {
-                    System.out.println("Не найдены координаты стиха");
                     currentSpeech = "";
+                    countOfAdditions = 0;
+                }
+            } else {
+                if (currentSpeech.contains("стих") || countOfAdditions == 3) {
+                    System.out.println("Стих не найден");
+                    currentSpeech = "";
+                    countOfAdditions = 0;
                 }
             }
         }
