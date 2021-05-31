@@ -6,6 +6,127 @@
 
 grammar bibleAssistantGrammar;
 
+<book_prophet> = (
+    [книга] [пророка]
+);
+
+<genesis> = (
+    бытие
+);
+<exodus> = (
+    исход
+);
+<leviticus> = (
+    левит
+);
+<numbers> = (
+    числа
+);
+<deuteronomy> = (
+    второзаконие
+);
+<joshua> = (
+    ([книга] иисуса навина) | (иисус навин)
+);
+<judges> = (
+    ([книга] судей [израилевых]) | (судьи)
+);
+<ruth> = (
+    ([книга] руфи) | (руфь)
+);
+<1_samuel> = (
+    ((первое) | (первая [книга])) царств
+);
+<2_samuel> = (
+    ((второе) | (вторая [книга])) царств
+);
+<1_kings> = (
+    ((третье) | (третья [книга])) царств
+);
+<2_kings> = (
+    ((четвёртое) | (четвёртая [книга])) царств
+);
+<1_chronicles> = (
+    первая [книга] паралипоменон
+);
+<2_chronicles> = (
+    вторая [книга] паралипоменон
+);
+<ezra> = (
+    ([первая] [книга] ездры) | (ездра)
+);
+<nehemiah> = (
+    ([книга] неемии) | (неемия)
+);
+<esther> = (
+    ([книга] есфири) | (есфирь)
+);
+<job> = (
+    ([книга] иова) | (иов)
+);
+<psalms> = (
+    псалтирь
+);
+<proverbs> = (
+    ([книга] притчей [соломоновых]) | (притчи)
+);
+<ecclesiastes> = (
+    ([книга] екклесиаста) | (екклесиаст)
+);
+<song_of_songs> = (
+    [книга] (песни | песня) песней [соломона]
+);
+<isaiah> = (
+    (<book_prophet> исаии) | (исаия)
+);
+<jeremiah> = (
+    (<book_prophet> иеремии) | иеремия
+);
+<lamentation> = (
+    [книга] плач иеремии
+);
+<ezekiel> = (
+    (<book_prophet> иезекииля) | иезекииль
+);
+<daniel> = (
+    (<book_prophet> даниила) | даниил
+);
+<hosea> = (
+    (<book_prophet> осии) | осия
+);
+<joel> = (
+    (<book_prophet> иоиля) | иоиль
+);
+<amos> = (
+    (<book_prophet> амоса) | амос
+);
+<obadiah> = (
+    (<book_prophet> авдия) | авдий
+);
+<jonah> = (
+    (<book_prophet> ионы) | иона
+);
+<micah> = (
+    (<book_prophet> михея) | михей
+);
+<nahum> = (
+    (<book_prophet> наума) | наум
+);
+<habakkuk> = (
+    (<book_prophet> аввакума) | аввакум
+);
+<zephaniah> = (
+    (<book_prophet> софонии) | софония
+);
+<haggai> = (
+    (<book_prophet> аггея) | аггей
+);
+<zechariah> = (
+    (<book_prophet> захарии) | захария
+);
+<malachi> = (
+    (<book_prophet> малахии) | малахия
+);
 <matthew> = (
     [евангелие] [от] матфея
 );
@@ -89,6 +210,11 @@ grammar bibleAssistantGrammar;
 );
 
 <book_name> = (
+    <genesis> | <exodus> | <leviticus> | <numbers> | <deuteronomy> | <joshua> | <judges> | <ruth> | <1_samuel> |
+    <2_samuel> | <1_kings> | <2_kings> | <1_chronicles> | <2_chronicles> | <ezra> | <nehemiah> | <esther> | <job> |
+    <psalms> | <proverbs> | <ecclesiastes> | <song_of_songs> | <isaiah> | <jeremiah> | <lamentation> | <ezekiel> |
+    <daniel> | <hosea> | <joel> | <amos> | <obadiah> | <jonah> | <micah> | <nahum> | <habakkuk> | <zephaniah> |
+    <haggai> | <zechariah> | <malachi> |
     <matthew> | <mark> | <luke> | <john> | <acts> | <james> | <1_peter> | <2_peter> | <1_john> | <2_john> | <3_john> |
     <jude> | <romans> | <1_corinthians> | <2_corinthians> | <galatians> | <ephesians> | <philippians> | <colossians> |
     <1_thessalonians> | <2_thessalonians> | <1_timothy> | <2_timothy> | <titus> | <philemon> | <hebrews> | <revelation>
@@ -102,7 +228,7 @@ grammar bibleAssistantGrammar;
     восемнадцатая | девятнадцатая | двадцатая | тридцатая | сороковая | пятидесятая | шестидесятая | семидесятая |
     восьмидесятая | девяностая
 );
-<n_2c> = (
+<n_2> = (
     двадцать | тридцать | сорок | пятьдесят | шестьдесят | семьдесят | восемдесят | девяносто
 );
 <n_3> = (
@@ -112,7 +238,7 @@ grammar bibleAssistantGrammar;
     сотая | двухсотая
 );
 
-<n_w> = ([<n_3>] (([<n_2c>] <n_1_w>) | <n_2_w>)) | <n_3s_w>;
+<n_w> = ([<n_3>] (([<n_2>] <n_1_w>) | <n_2_w>)) | <n_3s_w>;
 
 <n_1_m> = (
     первый | второй | третий | четвёртый | пятый | шестой | седьмой | восьмой | девятый
@@ -125,7 +251,7 @@ grammar bibleAssistantGrammar;
 <n_3s_m> = (
     сотый | двухсотый
 );
-<n_m> = ([<n_3>] (([<n_2c>] <n_1_m>) | <n_2_m>)) | <n_3s_m>;
+<n_m> = ([<n_3>] (([<n_2>] <n_1_m>) | <n_2_m>)) | <n_3s_m>;
 
 <chapter_title> = (
     глава
