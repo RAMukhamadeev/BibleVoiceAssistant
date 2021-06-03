@@ -1,5 +1,282 @@
 [
   {
+    "shortName": "бытие",
+    "fullName": "Бытие",
+    "allNames": [
+      "бытие"
+    ],
+    "countOfChapters": 50,
+    "order": 1
+  },
+  {
+    "shortName": "исход",
+    "fullName": "Исход",
+    "allNames": [
+      "исход"
+    ],
+    "countOfChapters": 40,
+    "order": 2
+  },
+  {
+    "shortName": "левит",
+    "fullName": "Левит",
+    "allNames": [
+      "левит"
+    ],
+    "countOfChapters": 27,
+    "order": 3
+  },
+  {
+    "shortName": "числа",
+    "fullName": "Числа",
+    "allNames": [
+      "числа"
+    ],
+    "countOfChapters": 36,
+    "order": 4
+  },
+  {
+    "shortName": "второзаконие",
+    "fullName": "Второзаконие",
+    "allNames": [
+      "второзаконие"
+    ],
+    "countOfChapters": 34,
+    "order": 5
+  },
+  {
+    "shortName": "иисус навин",
+    "fullName": "Книга Иисуса Навина",
+    "allNames": [
+      "книга иисуса навина",
+      "иисус навин",
+      "иисуса навина"
+    ],
+    "countOfChapters": 24,
+    "order": 6
+  },
+  {
+    "shortName": "судьи",
+    "fullName": "Книга Судей Израилевых",
+    "allNames": [
+      "книга судей израилевых",
+      "судей израилевых",
+      "судей",
+      "судьи"
+    ],
+    "countOfChapters": 21,
+    "order": 7
+  },
+  {
+    "shortName": "руфь",
+    "fullName": "Книга Руфи",
+    "allNames": [
+      "книга руфи",
+      "руфи",
+      "руфь"
+    ],
+    "countOfChapters": 4,
+    "order": 8
+  },
+  {
+    "shortName": "1 царств",
+    "fullName": "Первая книга Царств",
+    "allNames": [
+      "первая книга царств",
+      "первая царств",
+      "первое царств"
+    ],
+    "countOfChapters": 31,
+    "order": 9
+  },
+  {
+    "shortName": "2 царств",
+    "fullName": "Вторая книга Царств",
+    "allNames": [
+      "вторая книга царств",
+      "вторая царств",
+      "второе царств"
+    ],
+    "countOfChapters": 24,
+    "order": 10
+  },
+  {
+    "shortName": "3 царств",
+    "fullName": "Третья книга Царств",
+    "allNames": [
+      "третья книга царств",
+      "третья царств",
+      "третье царств"
+    ],
+    "countOfChapters": 22,
+    "order": 11
+  },
+  {
+    "shortName": "4 царств",
+    "fullName": "Четвёртая книга Царств",
+    "allNames": [
+      "четвёртая книга царств",
+      "четвёртая царств",
+      "четвёртое царств"
+    ],
+    "countOfChapters": 25,
+    "order": 12
+  },
+  {
+    "shortName": "1 паралипоменон",
+    "fullName": "Первая книга Паралипоменон",
+    "allNames": [
+      "первая книга паралипоменон",
+      "первая паралипоменон",
+      "первое паралипоменон"
+    ],
+    "countOfChapters": 29,
+    "order": 13
+  },
+  {
+    "shortName": "2 паралипоменон",
+    "fullName": "Вторая книга Паралипоменон",
+    "allNames": [
+      "вторая книга паралипоменон",
+      "вторая паралипоменон",
+      "второе паралипоменон"
+    ],
+    "countOfChapters": 36,
+    "order": 14
+  },
+  {
+    "shortName": "ездра",
+    "fullName": "Книга Ездры",
+    "allNames": [
+      "книга ездры",
+      "ездры",
+      "ездра"
+    ],
+    "countOfChapters": 10,
+    "order": 15
+  },
+  {
+    "shortName": "неемия",
+    "fullName": "Книга Неемии",
+    "allNames": [
+      "книга неемии",
+      "неемии",
+      "неемия"
+    ],
+    "countOfChapters": 13,
+    "order": 16
+  },
+  {
+    "shortName": "",
+    "fullName": "Книга Есфири",
+    "allNames": [
+      "книга есфири",
+      "есфири",
+      "есфирь"
+    ],
+    "countOfChapters": 10,
+    "order": 17
+  },
+  {
+    "shortName": "иов",
+    "fullName": "Книга Иова",
+    "allNames": [
+      "книга иова",
+      "иова",
+      "иов"
+    ],
+    "countOfChapters": 42,
+    "order": 19
+  },
+  {
+    "shortName": "псалтирь",
+    "fullName": "Псалтирь",
+    "allNames": [
+      "псалтирь"
+    ],
+    "countOfChapters": 150,
+    "order": 20
+  },
+  {
+    "shortName": "",
+    "fullName": "Книга притчей Соломоновых",
+    "allNames": [
+      "книга притчей соломоновых",
+      "притчей соломоновых",
+      "притчей",
+      "притчи"
+    ],
+    "countOfChapters": 31,
+    "order": 21
+  },
+  {
+    "shortName": "екклесиаст",
+    "fullName": "Книга Екклесиаста",
+    "allNames": [
+      "книга екклесиаста",
+      "екклесиаста",
+      "екклесиаст"
+    ],
+    "countOfChapters": 12,
+    "order": 22
+  },
+  {
+    "shortName": "песня песней",
+    "fullName": "Книга песни песней Соломона",
+    "allNames": [
+      "книга песни песней соломона",
+      "песни песней соломона",
+      "книга песни песней",
+      "песни песней",
+      "книга песня песней соломона",
+      "песня песней соломона",
+      "книга песня песней",
+      "песня песней"
+    ],
+    "countOfChapters": 8,
+    "order": 23
+  },
+  {
+    "shortName": ,
+    "fullName": ,
+    "allNames": [
+    ],
+    "countOfChapters": ,
+    "order":
+  },
+  {
+    "shortName": ,
+    "fullName": ,
+    "allNames": [
+    ],
+    "countOfChapters": ,
+    "order":
+  },
+  {
+    "shortName": ,
+    "fullName": ,
+    "allNames": [
+    ],
+    "countOfChapters": ,
+    "order":
+  },
+  {
+    "shortName": ,
+    "fullName": ,
+    "allNames": [
+    ],
+    "countOfChapters": ,
+    "order":
+  },
+  {
+    "shortName": ,
+    "fullName": ,
+    "allNames": [
+    ],
+    "countOfChapters": ,
+    "order":
+  },
+  {
     "shortName": "матфея",
     "fullName": "Евангелие от Матфея",
     "allNames": [

@@ -24,7 +24,8 @@ public class SpeechRecognition {
 
         while ((result = recognizer.getResult()) != null) {
             String currentPhrase = result.getHypothesis();
-
+            System.out.println(currentPhrase);
+            /*
             if (!currentSpeech.isEmpty()) {
                 currentSpeech += " " + currentPhrase;
             } else {
@@ -61,6 +62,7 @@ public class SpeechRecognition {
                     countOfAdditions = 0;
                 }
             }
+            */
         }
 
         recognizer.stopRecognition();
